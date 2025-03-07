@@ -23,6 +23,8 @@ To-Do List App
 
 ## Screenshot
 ![Screenshot_7-3-2025_17171_127 0 0 1](https://github.com/user-attachments/assets/5c472dad-37ab-42e0-bf5b-28ad34f1d279)
+![image](https://github.com/user-attachments/assets/8c4658dc-ee35-4924-9286-16d8762260bb)
+
 
 ## Contributing
 If you'd like to improve this project, feel free to submit a pull request!
