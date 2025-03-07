@@ -1,0 +1,62 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif; /* Sets the font */
+    display: flex; /* Uses flexbox for centering */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #7cca79; /* Light gray background */
+}
+
+/* Container Styling */
+.container {
+    background: rgb(190, 179, 179); /* White background */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    width: 300px; /* Fixed width */
+    text-align: center; /* Centers text inside */
+}
+
+/* Input Field Styling */
+input {
+    width: 80%; /* Makes the input take 80% width */
+    padding: 8px; /* Adds padding */
+    margin: 10px 0; /* Adds spacing */
+}
+
+/* Button Styling */
+button {
+    background: #ce1b1b; /* Green background */
+    color: rgb(238, 233, 233); /* White text */
+    border: none; /* Removes border */
+    padding: 8px 12px; /* Padding for better size */
+    cursor: pointer; /* Shows pointer cursor on hover */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background: #1e1bd3; /* Darker green on hover */
+}
+
+/* Unordered List (Task List) Styling */
+ul {
+    list-style: none; /* Removes default bullet points */
+    padding: 0; /* Removes padding */
+}
+
+/* Individual Task (List Item) Styling */
+li {
+    display: flex; /* Makes tasks align horizontally */
+    justify-content: space-between; /* Spaces task and delete button */
+    background: #93bde7; /* Light gray background */
+    margin: 5px 0; /* Adds spacing between tasks */
+    padding: 5px; /* Adds padding */
+    border-radius: 5px; /* Rounds corners */
+}
+
+/* Completed Task Styling */
+.completed {
+    text-decoration: line-through; /* Strikethrough for completed tasks */
+    color: gray; /* Gray text color */
+}
